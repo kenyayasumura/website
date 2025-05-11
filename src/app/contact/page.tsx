@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Mail, Phone, MessageSquare, Github, Linkedin } from "lucide-react";
@@ -9,7 +8,7 @@ export default function ContactPage() {
     <main className="container py-12 md:py-24">
       <h1 className="text-4xl font-bold mb-8">Contact Me</h1>
       <p className="text-xl text-muted-foreground mb-12 max-w-3xl">
-        I'd love to hear from you! Whether you have a project in mind, need consulting services, or are interested in learning programming or languages, feel free to reach out.
+        I&apos;d love to hear from you! Whether you have a project in mind, need consulting services, or are interested in learning programming or languages, feel free to reach out.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">

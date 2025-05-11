@@ -12,7 +12,7 @@ export default function AboutPage() {
           <section className="space-y-4">
             <h2 className="text-2xl font-semibold">Background</h2>
             <p className="text-muted-foreground">
-              I'm Kenya Yasumura, a passionate full-stack developer with extensive experience in building applications and providing IT consulting services.
+              I&apos;m Kenya Yasumura, a passionate full-stack developer with extensive experience in building applications and providing IT consulting services.
             </p>
             <p className="text-muted-foreground">
               With a strong background in both frontend and backend development, I create seamless, user-friendly applications that solve real-world problems.
@@ -77,7 +77,7 @@ export default function AboutPage() {
                 </p>
               </div>
               <div>
-                <h3 className="font-medium">Programming & Language Instructor</h3>
+                <h3 className="font-medium">Programming &amp; Language Instructor</h3>
                 <p className="text-sm text-muted-foreground">2019 - Present</p>
                 <p className="text-muted-foreground mt-2">
                   Teaching programming concepts and languages (English/Japanese) to students of all levels, from beginners to advanced learners.

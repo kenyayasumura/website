@@ -10,13 +10,13 @@ export function AboutSection() {
           <div className="space-y-4">
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">About Me</h2>
             <p className="text-muted-foreground">
-              I'm Kenya Yasumura, a passionate full-stack developer with extensive experience in building applications and providing IT consulting services.
+              I&apos;m Kenya Yasumura, a passionate full-stack developer with extensive experience in building applications and providing IT consulting services.
             </p>
             <p className="text-muted-foreground">
               With a strong background in both frontend and backend development, I create seamless, user-friendly applications that solve real-world problems.
             </p>
             <p className="text-muted-foreground">
-              I'm also dedicated to sharing my knowledge through programming and language teaching, helping others develop valuable skills in today's digital world.
+              I&apos;m also dedicated to sharing my knowledge through programming and language teaching, helping others develop valuable skills in today&apos;s digital world.
             </p>
             <div className="pt-4">
               <Button asChild>

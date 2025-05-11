@@ -107,7 +107,7 @@ export default function ServicesPage() {
       <div className="mt-16 text-center">
         <h2 className="text-2xl font-bold mb-4">Ready to Get Started?</h2>
         <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-          Contact me today to discuss your project or learning goals. I'm here to help you succeed.
+          Contact me today to discuss your project or learning goals. I&apos;m here to help you succeed.
         </p>
         <Button asChild size="lg">
           <Link href="/contact">Contact Me</Link>
