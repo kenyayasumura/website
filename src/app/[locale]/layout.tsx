@@ -22,11 +22,12 @@ export function generateStaticParams() {
 
 export default async function LocaleLayout({
   children,
-  params: { locale },
-}: Readonly<{
+  params,
+}: {
   children: React.ReactNode;
   params: { locale: string };
-}>) {
+}) {
+  const locale = params.locale;
   const isValidLocale = ["en", "ja"].includes(locale);
   if (!isValidLocale) notFound();
 
