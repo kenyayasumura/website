@@ -21,7 +21,9 @@ export function validateLocale(locale: string | undefined) {
   return locale;
 }
 
-export default {
+const i18nConfig = {
   defaultLocale,
   locales
 };
+
+export default i18nConfig;
