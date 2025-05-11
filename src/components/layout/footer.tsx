@@ -1,7 +1,10 @@
 import React from "react";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 export function Footer() {
+  const t = useTranslations("footer");
+  
   return (
     <footer className="border-t bg-background">
       <div className="container py-8 md:py-12">
@@ -17,22 +20,22 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link href="/" className="text-sm text-muted-foreground hover:text-foreground">
-                  Home
+                  {t("links.home")}
                 </Link>
               </li>
               <li>
                 <Link href="/about" className="text-sm text-muted-foreground hover:text-foreground">
-                  About
+                  {t("links.about")}
                 </Link>
               </li>
               <li>
                 <Link href="/services" className="text-sm text-muted-foreground hover:text-foreground">
-                  Services
+                  {t("links.services")}
                 </Link>
               </li>
               <li>
                 <Link href="/contact" className="text-sm text-muted-foreground hover:text-foreground">
-                  Contact
+                  {t("links.contact")}
                 </Link>
               </li>
             </ul>
@@ -48,7 +51,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Kenya Yasumura. All rights reserved.</p>
+          <p>{t("copyright")}</p>
         </div>
       </div>
     </footer>
