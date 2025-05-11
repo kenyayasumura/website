@@ -1,0 +1,196 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "footer": {
+    "copyright": "© 2025 Kenya Yasumura. All rights reserved.",
+    "links": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "contact": "Contact"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Kenya Yasumura",
+      "subtitle": "Full-Stack Developer & IT Consultant",
+      "description": "Building innovative solutions and providing expert consulting services",
+      "cta": "View My Services"
+    },
+    "services": {
+      "title": "My Services",
+      "description": "I offer a range of professional services to help you achieve your goals",
+      "viewAll": "View All Services",
+      "items": {
+        "appDevelopment": {
+          "title": "App Development",
+          "description": "Custom applications for web, mobile, and desktop platforms"
+        },
+        "itConsulting": {
+          "title": "IT Consulting",
+          "description": "Expert advice on IT systems, architecture, and technology solutions"
+        },
+        "programmingTeaching": {
+          "title": "Programming Teaching",
+          "description": "Personalized programming lessons for beginners and advanced learners"
+        },
+        "languageTeaching": {
+          "title": "Language Teaching",
+          "description": "English and Japanese language instruction for all proficiency levels"
+        }
+      }
+    },
+    "about": {
+      "title": "About Me",
+      "description1": "I'm Kenya Yasumura, a passionate full-stack developer with extensive experience in building applications and providing IT consulting services.",
+      "description2": "With a strong background in both frontend and backend development, I create seamless, user-friendly applications that solve real-world problems.",
+      "description3": "I'm also dedicated to sharing my knowledge through programming and language teaching, helping others develop valuable skills in today's digital world.",
+      "cta": "Learn More About Me"
+    },
+    "contact": {
+      "title": "Get In Touch",
+      "description": "Interested in working together? Contact me to discuss your project or learning goals.",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send Message",
+      "cta": "Contact Me"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "background": {
+      "title": "Background",
+      "description1": "I'm Kenya Yasumura, a passionate full-stack developer with extensive experience in building applications and providing IT consulting services.",
+      "description2": "With a strong background in both frontend and backend development, I create seamless, user-friendly applications that solve real-world problems."
+    },
+    "skills": {
+      "title": "Skills",
+      "frontend": "Frontend",
+      "backend": "Backend"
+    },
+    "languages": {
+      "title": "Languages",
+      "english": "English",
+      "japanese": "Japanese",
+      "fluent": "Fluent",
+      "native": "Native"
+    },
+    "experience": {
+      "title": "Experience",
+      "fullstack": {
+        "title": "Full-Stack Developer",
+        "period": "2020 - Present",
+        "description": "Developing web and mobile applications for clients across various industries. Specializing in creating responsive, user-friendly interfaces and robust backend systems."
+      },
+      "consultant": {
+        "title": "IT Consultant",
+        "period": "2018 - Present",
+        "description": "Providing technical consulting services to businesses looking to optimize their IT infrastructure and implement new technologies."
+      },
+      "instructor": {
+        "title": "Programming & Language Instructor",
+        "period": "2019 - Present",
+        "description": "Teaching programming concepts and languages (English/Japanese) to students of all levels, from beginners to advanced learners."
+      }
+    },
+    "education": {
+      "title": "Education",
+      "degree": "Bachelor of Computer Science",
+      "university": "University of Technology, 2018"
+    },
+    "cta": "Get in Touch"
+  },
+  "services": {
+    "title": "My Services",
+    "description": "I offer a range of services to help you achieve your goals, from custom application development to personalized teaching.",
+    "whatIOffer": "What I Offer",
+    "comprehensive": "Comprehensive {service} services tailored to your needs",
+    "customSolutions": "Custom solutions available based on your specific requirements.",
+    "request": "Request {service}",
+    "appDevelopment": {
+      "title": "App Development",
+      "description": "Custom application development for web, mobile, and desktop platforms.",
+      "details": [
+        "Web applications using React, Next.js, and other modern frameworks",
+        "Mobile apps for iOS and Android using React Native",
+        "Desktop applications using Electron",
+        "Full-stack development with various backend technologies"
+      ]
+    },
+    "itConsulting": {
+      "title": "IT Consulting",
+      "description": "Expert advice on IT systems, architecture, and technology solutions.",
+      "details": [
+        "System architecture design and optimization",
+        "Technology stack recommendations",
+        "Legacy system modernization",
+        "Cloud migration strategies",
+        "Security assessments and improvements"
+      ]
+    },
+    "programmingTeaching": {
+      "title": "Programming Teaching",
+      "description": "Personalized programming lessons for beginners and advanced learners.",
+      "details": [
+        "JavaScript, TypeScript, and React fundamentals",
+        "Python programming for beginners and advanced users",
+        "Backend development with Node.js, Express, and databases",
+        "Data structures and algorithms",
+        "Project-based learning with real-world applications"
+      ]
+    },
+    "languageTeaching": {
+      "title": "Language Teaching",
+      "description": "English and Japanese language instruction for all proficiency levels.",
+      "details": [
+        "English conversation and writing for all levels",
+        "Japanese language from beginner to advanced",
+        "Business English and Japanese for professionals",
+        "Technical language for IT professionals",
+        "Customized curriculum based on your goals"
+      ]
+    },
+    "getStarted": {
+      "title": "Ready to Get Started?",
+      "description": "Contact me today to discuss your project or learning goals. I'm here to help you succeed.",
+      "cta": "Contact Me"
+    }
+  },
+  "contact": {
+    "title": "Contact Me",
+    "description": "I'd love to hear from you! Whether you have a project in mind, need consulting services, or are interested in learning programming or languages, feel free to reach out.",
+    "email": {
+      "title": "Email",
+      "description": "Send me an email anytime",
+      "action": "Send Email"
+    },
+    "phone": {
+      "title": "Phone",
+      "description": "Call for immediate assistance",
+      "note": "Fill out the contact form to request a call",
+      "action": "Request Call"
+    },
+    "social": {
+      "title": "Social Media",
+      "description": "Connect with me online",
+      "note": "Follow me for updates on my latest projects and services."
+    },
+    "form": {
+      "title": "Send Me a Message",
+      "description": "Fill out the form below and I'll get back to you as soon as possible.",
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "service": "Service Interested In",
+      "selectService": "Select a service",
+      "submit": "Send Message"
+    }
+  }
+}
